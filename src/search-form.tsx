@@ -13,7 +13,7 @@ import { useNavigation } from "@react-navigation/native";
 import { RouteNames } from "./index";
 
 export default function SearchForm() {
-  const [searchText, setSearchText] = React.useState("kittens");
+  const [searchText, setSearchText] = React.useState("");
 
   const { navigate } = useNavigation();
 
